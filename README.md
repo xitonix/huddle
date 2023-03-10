@@ -20,7 +20,8 @@ Open your browser and navigate to http://localhost:3001. To add the second parti
 - Audio track is disabled to prevent echo when running the app locally
 - The screen sharing track for this demo is only implemented for Chrome 72+
 - You can disable/enable different tracks by changing the parameters of the `joinRoom` method in [main.js](./public/main.js) file
-
+- To make sure Twilio creates ad-hoc [Go Rooms](https://www.twilio.com/docs/video/tutorials/understanding-video-rooms#comparing-room-types) you need set the default room topology in your Twilio account:
+![Room Topology](media/room.jpg)
 
 ### Useful Links
 
