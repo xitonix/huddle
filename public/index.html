@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Twilio Video Demo</title>
+    <!-- Twilio Video CDN -->
+    <script src="https://sdk.twilio.com/js/video/releases/2.26.2/twilio-video.min.js"></script>
+</head>
+<body>
+<form id="huddle-form">
+    <label for="your-name-input">Your Name</label>
+    <input name="your_name" id="your-name-input"/>
+    <button type="submit">Join Room</button>
+</form>
+<form id="screen-form" style="visibility: hidden">
+    <button type="submit">Share Screen</button>
+</form>
+<div id="video-container"></div>
+<script src="main.js"></script>
+</body>
+</html>
